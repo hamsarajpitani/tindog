@@ -1,12 +1,14 @@
 body
 {
   font-family: "Montserrat";
+  margin: 0;
 }
 #title
 {
   background-color: #ff4c68;
   color: #fff;
 }
+
 .container-fluid
 {
   padding: 3% 15%;
@@ -51,17 +53,23 @@ h1
 #features
 {
   padding: 7% 17%;
+  position: relative;
+  z-index: 1;
 }
-h3
+.title-img
 {
-  font-family: "Montserrat-Bold";
-  font-size: 2rem;
-  font-weight: bolder;
+  position: absolute;
 }
 .feature-box
 {
   padding: 5%;
   text-align: center;
+}
+h3
+{
+  font-family: "Montserrat-Black";
+  font-size: 2rem;
+  font-weight: bolder;
 }
 p{
   color: #8f8f8f;
@@ -91,7 +99,7 @@ h2
 {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
-  font-weight: bold;
+  font-weight: bolder;
 }
 .testimonial-image
 {
@@ -120,11 +128,13 @@ h2
   color: #fff;
   text-align: center;
 }
-h3
+
+h4
 {
-  font-family: "Montserrat-Black";
+  font-family: "Montserrat-Bold";
+  font-weight: bolder;
   font-size: 3.5rem;
-  font-weight: bold;
+
 }
 .btn-cta{
   margin-right:1rem;
@@ -133,23 +143,30 @@ h3
 #pricing
 {
   text-align: center;
-
-}
-.price-card{
-}
-.price-block
-{
-  padding: 15% 5%;
+  background-color: #fff;
+  padding: 7% 15%;
 }
 .card
 {
   margin: .1rem;
+}
+.section-heading
+{
+  margin: 0 0 2rem;
+}
+.pricing-column
+{
+  margin: 2.5rem 0;
+}
+.row{
+  margin-right: 1rem;
 }
 /*-----------FOOTER-------------*/
 #footer
 {
   text-align: center;
   padding: 10% 12% 10%;
+  background-color: #fff;
 }
 .fab-icon{
   margin-right: 9px;
