@@ -1,3 +1,15 @@
+/*--------------media-----*/
+@media (max-width: 1000px) {
+  .title-img{
+    margin-top: 1.9rem;
+    position: static;
+  transform: rotate(0);
+  }
+#title{
+      text-align: center;
+    }
+}
+
 body
 {
   font-family: "Montserrat";
@@ -8,10 +20,15 @@ body
   background-color: #ff4c68;
   color: #fff;
 }
-
+.title-img{
+  width: 60%;
+  transform: rotate(28deg);
+  position: absolute;
+  right: 20%;
+}
 .container-fluid
 {
-  padding: 3% 15%;
+  padding: 3% 15% 6%;
 }
 h1
 {
@@ -45,20 +62,14 @@ h1
 .btn{
   margin: 5% 3% 5% 0;
 }
-.title-img{
-  width: 60%;
-  transform: rotate(30deg);
-}
+
+
 /*-------features------------*/
 #features
 {
+  background-color: #fff;
   padding: 7% 17%;
   position: relative;
-  z-index: 1;
-}
-.title-img
-{
-  position: absolute;
 }
 .feature-box
 {
