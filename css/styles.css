@@ -174,7 +174,7 @@ h4
   margin-right: 9px;
   margin-bottom: 1rem;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1000px) {
   .title-img{
     margin-top: 1.9rem;
     position: static;
